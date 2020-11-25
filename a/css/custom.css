@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-sm-6, .col-xs-6 {
+    width: 50%;
+}
+
+.col-sm-12, .col-xs-12 {
+    width: 100%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p.gia {
+    color: red;
+}
+
+.danh-muc .list-group-item:hover {
+    background-color: #ddd;
+}
+
+del.giam-gia {
+    opacity: 0.8;
+}
+
+#footer li.list-group-item {
+    border-left: 0px;
+    border-right: 0px;
+    padding-left: 5px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p#sach-ban-chay {
+    font-size: 15px;
+    background-color: #FF649D;
+    padding: 15px;
+    margin: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+p#sach-giam-gia {
+    font-size: 15px;
+    background-color: #155970;
+    padding: 15px;
+    margin: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+#sach-ban-chay .col-md-3.mb-2 {
+    padding: 0px 5px;
+}
+
+#sach-giam-gia .col-md-3.mb-2 {
+    padding: 0px 5px;
+}
+
+#section-banner .col-md-4 {
+    margin-top: -30px;
+}
+
+#section-banner img {
+    background: white;
+    padding: 10px;
+}
+
+#section-top .col-md-7 {
+    padding: 0px;
+}
+
+#section-top .col-md-3 {
+    top: -50px;
+}
+
+.navbar {
+    padding: 5px;
+}
+
+p.danh-muc-san-pham {
+    color: white;
+    font-weight: bold;
+    background-color: #F47920;
+    padding: 13px;
+    margin: 0px;
+}
+
+ul.list-group {
+    border-radius: 0px;
+}
+
+body {
+    font-size: 14px;
+}
+
+main {
+    background-color: #E5E5E5;
+}
+
+.header-bottom a {
+    color: white;
+}
+
+.header-bottom {
+    font-weight: bold;
+    background-color: #232323;
+    font-size: 14px;
+}
+
+.cart {
+    border: none;
+    border-radius: 20px;
+}
+
+.header-top {
+    font-size: 14px;
+    background-color: #F2F2F2;
+}
+
+.menu-bottom {
+    display: flex;
+    justify-content: center;
+   }
+
+@media all and (max-width: 600px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h3 {
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+   .banner-sach {
+        display: none;
+   }
+
+   #sach-ban-chay, #sach-giam-gia {
+    margin-bottom: 20px !important;
+   }
+
+   .san-pham-hot {
+    display: none;
+   }
+
+   .caption {
+    display: none;
+   }
+
+   .hotline {
+    text-align: center;
+    display: block;
+   }
+
+   .danh-muc {
+    display: none;
+   }
+
+   #section-banner {
+    margin-top: 50px;
+   }
+
+   .menu-bottom {
+    display: flex;
+    justify-content: center;
+   }
+
+   .navbar-toggler {
+    background-color: white !important;
+   }
+
+   .header-main {
+    display: none;
+   }
+}
