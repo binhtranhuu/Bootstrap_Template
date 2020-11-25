@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-menu {
+    color: white;
+    background-color: #FB2644;
+}
+
+#cac-giai-thuong-thuong-hieu {
+    background-color: #FEF6F1;
+    padding: 50px;
+}
+
+section {
+	margin-top: 50px;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: #ff1246;
+}
+
+#footer {
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	background-image: url(https://mypham23.muathemewp.com/wp-content/uploads/2020/09/bg-main-footer.jpg);
+}
+
+body {
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#chuyen-muc .card-title {
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.nav-tabs {
+	display: flex;
+	justify-content: center;
+	border: none;
+}
+
+.custom-tab li {
+	font-size: 16px;
+	text-transform: uppercase;
+    padding: 15px;
+}
+
+.card-text {
+	color: red;
+}
+
+#co-the-ban-se-thich .card {
+	border: none;
+}
