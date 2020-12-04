@@ -1,0 +1,7 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {background: url(https://storage.oxii.vn/Cache/Sites/OXII/Storage/Images/2019/1/28/1920/16_5.jpg) center no-repeat;height: 400px;display: flex;align-items: center;}
+
